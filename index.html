@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Estiak Ayon</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Projects & Papers</a></li>
+                    <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
+                    <li class="nav__item"><a href="#certificates" class="nav__link">Certificates</a></li>
+                    <!-- <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li> -->
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">
+                    Hi,<br>
+                    I'm <span class="home__title-color">MD Estiak Rahman Ayon</span><br>
+                    Data Scientist
+                </h1>
+                <!-- Optional button -->
+                <!-- <a href="#contact" class="button">Contact Me</a> -->
+                <div class="home__buttons">
+                    <a href="assets/docs/Ayon_CV.pdf" target="_blank" class="button button--view">View CV</a>
+                    <a href="assets/docs/Ayon_CV.pdf" download class="button button--download">Download CV</a>
+                </div>
+
+            </div>
+
+            <div class="home__img">
+                <svg class="home__blob" viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <clipPath id="blob-clip">
+                            <path
+                                d="M63,288Q3,126,144,72Q285,18,384,120Q483,222,384,360Q285,498,144,432Q3,366,63,288Z" />
+                        </clipPath>
+                    </defs>
+                    <image href="assets/img/profile.jpg" width="480" height="480" clip-path="url(#blob-clip)"
+                        preserveAspectRatio="xMidYMid slice" />
+                </svg>
+            </div>
+        </section>
+
+
+        <!--===== ABOUT =====-->
+        <section class="about section " id="about">
+            <h2 class="section-title">About</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="assets/img/profile.jpg" alt="">
+                </div>
+
+                <div>
+                    <h2 class="about__subtitle">I am Ayon,</h2>
+                    <p class="about__text">I’m MD Estiak Rahman Ayon, a Computer Science graduate passionate about Data Science and Data Analytics, as well as creating interactive web applications. I continuously focus on learning, exploring areas such as data analysis, data visualization, machine learning, and front-end development, and I enjoy solving complex problems with practical and innovative approaches.</p>
+                </div>
+            </div>
+        </section>
+
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills__container">
+                <!-- Programming Languages -->
+                <div class="skills__item">Python</div>
+                <div class="skills__item">PHP</div>
+                <div class="skills__item">C++</div>
+                <div class="skills__item">C#</div>
+                <div class="skills__item">JavaScript</div>
+                <div class="skills__item">CSS</div>
+
+                <!-- Frameworks & Libraries -->
+                <div class="skills__item">React.js</div>
+                <div class="skills__item">Tailwind CSS</div>
+                <div class="skills__item">AJAX</div>
+                <div class="skills__item">OpenGL</div>
+
+                <!-- Data Science Tools -->
+                <div class="skills__item">Pandas</div>
+                <div class="skills__item">NumPy</div>
+                <div class="skills__item">Matplotlib</div>
+                <div class="skills__item">Scikit-learn</div>
+
+                <!-- Core Competencies -->
+                <div class="skills__item">Front-End Web Development</div>
+                <div class="skills__item">Data Visualization & Analysis</div>
+                <div class="skills__item">Data Cleaning & Preprocessing</div>
+                <div class="skills__item">Machine Learning Model Development</div>
+                <div class="skills__item">Database Management (MySQL)</div>
+            </div>
+        </section>
+
+
+
+        <section class="projects section" id="projects">
+            <h2 class="section-title">Projects & Papers</h2>
+
+            <div class="projects__container bd-grid">
+
+                <div class="projects__item">
+                    <h3 class="projects__title">🍽️ Restaurant Management System</h3>
+                    <p class="projects__desc">A full-featured restaurant management system with dashboards for
+                        customers, admins, and riders with live updates and secure sessions.</p>
+                    <div class="projects__languages">
+                        <span class="language__card">PHP</span>
+                        <span class="language__card">JavaScript</span>
+                        <span class="language__card">CSS</span>
+                        <span class="language__card">AJAX</span>
+                        <span class="language__card">MySQL</span>
+                    </div>
+                </div>
+
+                <div class="projects__item">
+                    <h3 class="projects__title">🏧 ATM Management System</h3>
+                    <p class="projects__desc">A desktop-based ATM simulator handling authentication, withdrawals,
+                        deposits, and balance tracking efficiently.</p>
+                    <div class="projects__languages">
+                        <span class="language__card">C#</span>
+                        <span class="language__card">MySQL</span>
+                    </div>
+                </div>
+
+                <div class="projects__item">
+                    <h3 class="projects__title">🎮 Tic Tac Toe game</h3>
+                    <p class="projects__desc">A fun and competitive Tic Tac Toe game offering smooth turns, quick
+                        responses, and instant winner updates.</p>
+                    <div class="projects__languages">
+                        <span class="language__card">JS</span>
+                        <span class="language__card">CSS</span>
+                    </div>
+                </div>
+
+                <div class="projects__item">
+                    <h3 class="projects__title">🎮 Rock Paper Scissors game</h3>
+                    <p class="projects__desc">An engaging Rock Paper Scissors game that delivers instant results,
+                        playful animations, and a fast-paced challenge.</p>
+                    <div class="projects__languages">
+                        <span class="language__card">JS</span>
+                        <span class="language__card">CSS</span>
+                    </div>
+                </div>
+
+                <div class="projects__item">
+                    <h3 class="projects__title">✈️ Airport Animation Visualization</h3>
+                    <p class="projects__desc">A 3D animated airport simulation featuring aircraft movement, landings,
+                        and weather effects with synchronized rendering.</p>
+                    <div class="projects__languages">
+                        <span class="language__card">C++</span>
+                        <span class="language__card">OpenGL</span>
+                    </div>
+                </div>
+
+                <div class="projects__item">
+                    <h3 class="projects__title">📊 Loan Default Prediction Using ML (Paper)</h3>
+                    <p class="projects__desc">Developed ML models to predict bank loan defaults using feature
+                        engineering and real-world financial datasets.</p>
+                    <div class="projects__languages">
+                        <span class="language__card">Python</span>
+                        <span class="language__card">Pandas</span>
+                        <span class="language__card">Scikit-learn</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!--===== EDUCATION =====-->
+        <section class="education section" id="education">
+            <h2 class="section-title">🎓 Education</h2>
+
+            <div class="education__container">
+                <div class="education__card">
+                    <h3 class="education__degree">B.Sc. (Hons.) in Computer Science & Engineering</h3>
+                    <p class="education__institute">American International University Bangladesh</p>
+                    <p class="education__year">2022 – Present</p>
+                </div>
+
+                <div class="education__card">
+                    <h3 class="education__degree">Higher Secondary Certificate (HSC)</h3>
+                    <p class="education__institute">Shafipur Ideal Public College</p>
+                    <p class="education__year">2021</p>
+                </div>
+
+                <div class="education__card">
+                    <h3 class="education__degree">Secondary School Certificate (SSC)</h3>
+                    <p class="education__institute">Shafipur Ideal Public School</p>
+                    <p class="education__year">2019</p>
+                </div>
+            </div>
+        </section>
+
+
+        <!--===== Certificates =====-->
+        <section class="work section" id="certificates">
+            <h2 class="section-title">Certificates</h2>
+
+            <div class="work__container bd-grid">
+                <a href="" class="work__img">
+                    <img src="assets/img/c1.jpg" alt="">
+                </a>
+                <a href="" class="work__img">
+                    <img src="assets/img/c2.jpg" alt="">
+                </a>
+                <a href="" class="work__img">
+                    <img src="assets/img/c3.jpg" alt="">
+                </a>
+                <a href="" class="work__img">
+                    <img src="assets/img/c4.jpg" alt="">
+                </a>
+                <a href="" class="work__img">
+                    <img src="assets/img/c5.jpg" alt="">
+                </a>
+                <!-- <a href="" class="work__img">
+                    <img src="assets/img/work6.jpg" alt="">
+                </a> -->
+            </div>
+        </section>
+
+        <!-- ===== CONTACT =====
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+
+            <div class="contact__container bd-grid">
+                <form action="" class="contact__form">
+                    <input type="text" placeholder="Name" class="contact__input">
+                    <input type="mail" placeholder="Email" class="contact__input">
+                    <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                    <input type="button" value="Enviar" class="contact__button button">
+                </form>
+            </div>
+        </section>
+    </main> -->
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Estiak Ayon</p>
+
+            <div class="footer__contact">
+                <p>📧 <a href="mailto:estiakayon@gmail.com" class="footer__link">estiakayon@gmail.com</a></p>
+                <p>📞 <a href="tel:+8801704617747" class="footer__link">+880 1704-617747</a></p>
+            </div>
+
+            <div class="footer__social">
+                <a href="https://www.facebook.com/estiak.ayon99/" target="_blank" class="footer__icon"><i
+                        class='bx bxl-facebook'></i></a>
+                <a href="https://www.instagram.com/_ayooonx7/" target="_blank" class="footer__icon"><i
+                        class='bx bxl-instagram'></i></a>
+                <a href="https://github.com/EstiakAyon99" target="_blank" class="footer__icon"><i
+                        class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/md-estiak-rahman-ayon/" class="footer__icon"><i
+                        class='bx bxl-linkedin'></i></a>
+                <a href="https://wa.me/+8801704617747" target="_blank" class="footer__icon"><i
+                        class='bx bxl-whatsapp'></i></a>
+            </div>
+
+            <p class="footer__copy">&#169; All rights reserved to MD Estiak Rahman Ayon</p>
+        </footer>
+
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+</body>
+
+</html>
